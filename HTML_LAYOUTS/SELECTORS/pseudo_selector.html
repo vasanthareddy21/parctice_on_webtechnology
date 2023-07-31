@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>pseudo selector</title>
+    <style>
+        h1::first-letter{
+            background-color: brown;
+            color: blanchedalmond;
+        }
+        h1::cue-region{
+            color: rgb(14, 87, 87);
+        }
+        p::first-line{
+            color: rgb(64, 12, 160);
+        }
+        span:nth-child(1){
+            color: aquamarine;
+        }
+        span:nth-child(5){
+            color: aqua;
+        }
+        span:nth-child(even){
+            color: firebrick;
+        }
+        span:nth-child(odd){
+            color: mediumspringgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>GOOD MORNING</h1>
+    <h2>
+        <span>H</span>
+        <span>E</span>
+        <span>L</span>
+        <span>L</span>
+        <span>O</span>
+    </h2>
+    <P>
+    P Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, tempore dolor sit reiciendis nulla harum explicabo eos quidem omnis cupiditate cumque nisi. Qui consequatur recusandae iure quidem. Iure, libero temporibus!
+</P>
+</body>
+</html>

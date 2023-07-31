@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+div{
+    border: 2px solid crimson;
+    display:grid;
+    grid-template-columns: repeat(2,800px);
+    grid-template-rows: repeat(4,200px);
+    grid-template-areas: 
+    " header header"
+    "navbar navbar"
+    "aside section"
+    "footer footer";
+}
+div>header{
+    grid-area: header;
+    background-color: red;
+}
+div>nav{
+    grid-area: navbar;
+    background-color: blue;
+}
+div>section{
+    grid-area: section;
+    background-color: aqua;
+}
+div>aside{
+    grid-area: aside;
+    background-color: brown;
+}
+div>footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
+    </style>
+</head>
+<body>
+  <div>
+    <header>heading</header>
+    <nav>navigation</nav>
+    <section>section</section>
+    <aside>aside</aside>
+    <footer>footer</footer>
+  </div>  
+</body>
+</html>

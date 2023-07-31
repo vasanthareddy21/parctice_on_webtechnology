@@ -1,0 +1,9 @@
+body{
+    background-color: aqua;
+}
+table{
+    background-color: rgb(31, 81, 64);
+    color: blue;
+    font-size: larger;
+    font-style: italic;
+}

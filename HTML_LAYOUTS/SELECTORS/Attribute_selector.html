@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>attribute_selector</title>
+    <style>
+        [align]{
+            border: 2px solid red;
+        }
+        [align='centre']{
+            background-color: aqua;
+            color: lightcoral;
+        }
+        [align='right']{
+            color:aqua;
+            text-shadow: 0 0 5px green;
+        }
+        [align='left']{
+            color: bisque;
+            text-shadow: 0 0 15px chocolate;
+            font-style: oblique;
+        }
+        [title='table']{
+            border:2px solid olivedrab;
+            border-radius: 50px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+   <h1 align="centre">align:centre</h1> 
+   <h1 align="right">align:right</h1>
+   <h1 align="left">align:left</h1>
+   <img src="https://lh3.googleusercontent.com/-O7CskiSHrzE/AAAAAAAAAAI/AAAAAAAAABQ/6i1w7tR9z1Q/photo.jpg" alt=""title='table'>
+</body>
+</html>
